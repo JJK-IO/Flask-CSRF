@@ -4,7 +4,7 @@ import string
 from flask import Flask, request, session, abort, render_template, jsonify
 
 app = Flask(__name__)
-app.secret_key = "secret_key of d00m. Also Bailey gives no fucks."
+app.secret_key = "<generate your own secret key>"
 
 
 @app.route('/')
